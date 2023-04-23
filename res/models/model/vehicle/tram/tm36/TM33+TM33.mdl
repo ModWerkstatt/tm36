@@ -1,0 +1,1613 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 11.86, 1.2991322278976, 4.9, },
+		bbMin = { -11.86, -1.2991318702698, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 11.006274223328, 1.2991321086884, 3.7346405982971, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/tritte.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod0.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod0.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod0.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod0.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod0.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod0.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod0.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/panto_schere_up_lod0.msh",
+						        name = "schere_oben",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod0.msh",
+						        name = "Scheinwerfer",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod0.msh",
+						        name = "Scheinwerfer",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod0.msh",
+						        name = "Rücklichter",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod0.msh",
+						        name = "Rücklichter",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/kupplung_lod0.msh",
+						        name = "Kupplung",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/innen.mtl", },
+						        mesh = "vehicle/tram/tm36/innen_tm33_lod0.msh",
+						        name = "innen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/innen_glas_lod0.msh",
+						        name = "innen Glas",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_tm33_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_licht_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/spiegel_eckig_lod0.msh",
+						        name = "Spiegel_eckig",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/spiegel_eckig_angelegt_lod0.msh",
+						        name = "Spiegel_eckig",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod0.msh",
+						        name = "Starkstromstecker",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_eingesteckt_lod0.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod0.msh",
+						        name = "Starkstromstecker",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_gekuppelt_lod0.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_all_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_weiss_lod0.msh",
+						        name = "Licht weiss",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_links_lod0.msh",
+						        name = "Blinker links 1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_rechts_lod0.msh",
+						        name = "Blinker rechts 1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "Tw1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.93, 0, 0, 1, },
+			        },
+                    {
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/tritte.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod0.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod0.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod0.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod0.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod0.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod0.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod0.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/panto_schere_down_lod0.msh",
+						        name = "schere_oben",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod0.msh",
+						        name = "Scheinwerfer",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod0.msh",
+						        name = "Scheinwerfer",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod0.msh",
+						        name = "Rücklichter",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod0.msh",
+						        name = "Rücklichter",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/kupplung_lod0.msh",
+						        name = "Kupplung",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/innen.mtl", },
+						        mesh = "vehicle/tram/tm36/innen_tm33_lod0.msh",
+						        name = "innen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/innen_glas_lod0.msh",
+						        name = "innen Glas",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_tm33_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_licht_lod0.msh",
+						        name = "Fenster",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_licht_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/spiegel_eckig_angelegt_lod0.msh",
+						        name = "Spiegel_eckig",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/spiegel_eckig_angelegt_lod0.msh",
+						        name = "Spiegel_eckig",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod0.msh",
+						        name = "Starkstromstecker",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_gekuppelt_lod0.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod0.msh",
+						        name = "Starkstromstecker",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_eingesteckt_lod0.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_all_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_rot_lod0.msh",
+						        name = "Licht rot",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_links_lod0.msh",
+						        name = "Blinker links 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_rechts_lod0.msh",
+						        name = "Blinker rechts 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_brake_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_rot_lod0.msh",
+						        name = "Bremslicht 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+					        },
+				        },
+				        name = "Tw2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.93, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/tritte.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod1.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod1.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod1.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod1.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod1.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod1.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod1.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/panto_schere_up_lod1.msh",
+						        name = "schere_oben",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod1.msh",
+						        name = "Scheinwerfer",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod1.msh",
+						        name = "Scheinwerfer",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod1.msh",
+						        name = "Rücklichter",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod1.msh",
+						        name = "Rücklichter",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_tm33_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod1.msh",
+						        name = "Starkstromstecker",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_eingesteckt_lod1.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod1.msh",
+						        name = "Starkstromstecker",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_gekuppelt_lod1.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_all_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_weiss_lod0.msh",
+						        name = "Licht weiss",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_links_lod0.msh",
+						        name = "Blinker links 1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_rechts_lod0.msh",
+						        name = "Blinker rechts 1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "Tw1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.93, 0, 0, 1, },
+			        },
+                    {
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/tritte.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod1.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod1.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod1.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod1.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod1.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod1.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod1.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/panto_schere_down_lod1.msh",
+						        name = "schere_oben",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod1.msh",
+						        name = "Scheinwerfer",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/scheinwerfer_lod1.msh",
+						        name = "Scheinwerfer",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod1.msh",
+						        name = "Rücklichter",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rueckleuchten_lod1.msh",
+						        name = "Rücklichter",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/glas.mtl", },
+						        mesh = "vehicle/tram/tm36/glas_tm33_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod1.msh",
+						        name = "Starkstromstecker",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_gekuppelt_lod1.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_stecker_lod1.msh",
+						        name = "Starkstromstecker",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/starkstromkabel_eingesteckt_lod1.msh",
+						        name = "Starkstromkabel offen",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_all_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_rot_lod0.msh",
+						        name = "Licht rot",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_links_lod0.msh",
+						        name = "Blinker links 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_blink_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_blinker_rechts_lod0.msh",
+						        name = "Blinker rechts 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/emissive/tram_brake_lights.mtl", },
+						        mesh = "vehicle/tram/tm36/licht_rot_lod0.msh",
+						        name = "Bremslicht 2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.005, 0, 0, 1, },
+					        },
+				        },
+				        name = "Tw2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.93, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod2.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod2.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod2.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod2.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod2.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod2.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod2.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+				        },
+				        name = "Tw1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.93, 0, 0, 1, },
+			        },
+                    {
+						children = {
+					        {
+                                materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rumpf_tm33_lod2.msh",
+						        name = "Rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod2.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/rad_lod2.msh",
+						        name = "Rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7437872886658, 0, 0.25005900859833, 1, },
+					        },
+					        {
+						        animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_1.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod2.msh",
+						        name = "Tür1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+                        		animations = {
+							        close_all_doors = {
+                                        forward = false,
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+							        open_all_doors = {
+								        params = {
+									        id = "vehicle/tram/tm36/doors/door_2.ani",
+								        },
+								        type = "FILE_REF",
+							        },
+						        },
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod2.msh",
+						        name = "Tür2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_1_lod2.msh",
+						        name = "Tür1",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+					        {
+						        materials = { "vehicle/tram/tm36/rumpf_tm33.mtl", },
+						        mesh = "vehicle/tram/tm36/tuer_2_lod2.msh",
+						        name = "Tür2",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 1.0595090389252, 1.5588921308517, 1, },
+					        },
+				        },
+				        name = "Tw2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.93, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1948,
+			yearTo = 1967,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("tm33+tm33_schere_name"),
+            description = _("tm33_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+        labelList = {
+			labels = {
+                {
+                    -- front text
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "CUSTOM",
+                    params = { expr = "([^0-9.]*)", replace = "\\1" },
+					fitting = "SCALE",
+					size = { 0.8, 0.2, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, -0.4, 2.62, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, -0.66, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left side
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0.961, 0.276, 0, 0, 0, 0, 1, 0, 0.276, -0.961, 0, 0, 5.4, -0.735, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number right
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, 0.43, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left side
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { -0.961, 0.276, 0, 0, -0, -0, 1, 0, 0.276, 0.961, 0, 0, 5.6, 0.68, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+
+                {
+                    -- back text
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "CUSTOM",
+                    params = { expr = "([^0-9.]*)", replace = "\\1" },
+					fitting = "SCALE",
+					size = { 0.8, 0.2, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, 0.4, 2.62, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, -0.45, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left side
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0.961, -0.276, 0, 0, 0, 0, 1, 0, -0.276, -0.961, 0, 0, -5.6, -0.68, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number right
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, 0.65, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left side
+					alignment = "CENTER",
+					childId = "Tw1",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = {-0.961, -0.276, 0, 0, 0, -0, 1, 0, -0.276, 0.961, 0, 0, -5.4, 0.735, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+
+                --
+
+                {
+                    -- front text
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "CUSTOM",
+                    params = { expr = "([^0-9.]*)", replace = "\\1" },
+					fitting = "SCALE",
+					size = { 0.8, 0.2, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, -0.4, 2.62, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, -0.66, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left side
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0.961, 0.276, 0, 0, 0, 0, 1, 0, 0.276, -0.961, 0, 0, 5.4, -0.735, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number right
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 5.61, 0.43, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- front number left side
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { -0.961, 0.276, 0, 0, -0, -0, 1, 0, 0.276, 0.961, 0, 0, 5.6, 0.68, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+
+                {
+                    -- back text
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "CUSTOM",
+                    params = { expr = "([^0-9.]*)", replace = "\\1" },
+					fitting = "SCALE",
+					size = { 0.8, 0.2, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, 0.4, 2.62, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, -0.45, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left side
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0.961, -0.276, 0, 0, 0, 0, 1, 0, -0.276, -0.961, 0, 0, -5.6, -0.68, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number right
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = { 0, -1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, -5.61, 0.65, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+				{
+                    -- back number left side
+					alignment = "CENTER",
+					childId = "Tw2",
+					color = { 0, 0, 0, 1, },
+                    filter = "NUMBER",
+					fitting = "SCALE",
+					size = { 0.2, 0.225, },
+					transf = {-0.961, -0.276, 0, 0, 0, -0, 1, 0, -0.276, 0.961, 0, 0, -5.4, 0.735, 2.61, 1, },
+					type = "LINE_NAME",
+				},
+			},
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/tram/tm36/rad_lod0.msh", },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = { },
+                    blinkLightsRight0 = { 26, 54, },
+					blinkLightsRight1 = { },
+					blinkLightsLeft0 = { 27, 55, },
+					blinkLightsLeft1 = { },
+					brakeLights = { 56, },
+				},
+				{
+					axles = { "vehicle/tram/tm36/rad_lod1.msh", },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					fakeBogies = { },
+                    blinkLightsRight0 = { 20, 41, },
+					blinkLightsRight1 = { },
+					blinkLightsLeft0 = { 21, 42, },
+					blinkLightsLeft1 = { },
+					brakeLights = { 43, },
+				},
+				{
+					axles = { "vehicle/tram/tm36/rad_lod2.msh", },
+				},
+			},
+			engines = {
+				{
+					power = 80,
+					tractiveEffort = 40,
+					type = "ELECTRIC",
+				},
+			},
+			soundSet = {
+				horn = "",
+				name = "tram_modern",
+			},
+			topSpeed = 13.890000343323,
+			weight = 20.3,
+		},
+        seatProvider = {
+			drivingLicense = "TRAM",
+            crewModels = { },
+			seats = {
+				{
+                    animation = "driving_upright",
+                    crew = true,
+                    forward = true,
+                    standing = true,
+                    group = 1,
+                    transf = { 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.95, 0.2, 0.9, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 0.6, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 0.25, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 3.6, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, 0.35, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, 4.4, -0.7, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3, 0.4, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 2, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 0.4, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, 3, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 1.3, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3, -0.75, 0.65, 1, },
+                },
+				--- Mitte ---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.3, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -1.3, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, -3, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.4, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -2, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, -0.4, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, -4.4, 0.7, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.6, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4, -0.65, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4, -0.25, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -3.6, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 1,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.6, -0.35, 0.65, 1, },
+                },
+
+				--- Group 2 ---
+
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 0.6, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.4, 0.25, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 3.6, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, 0.35, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, 4.4, -0.7, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.6, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3, 0.4, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 2, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, 0.4, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, 3, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, 1.3, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3, -0.75, 0.65, 1, },
+                },
+				--- Mitte ---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -1.3, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -1.3, -0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, -3, 0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3, -0.4, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -2, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2, -0.4, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 0.996, 0.087, 0, 0, -0.087, 0.996, 0, 0, 0, 0, 1, 0, -4.4, 0.7, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, -0.174, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.6, 0.75, 0.65, 1, },
+                },
+				---
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0.174, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4, -0.65, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.4, -0.25, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -0.996, 0.087, 0, 0, -0.087, -0.996, 0, 0, 0, 0, 1, 0, -3.6, -0.75, 0.65, 1, },
+                },
+                {
+                    animation = "sitting",
+                    crew = false,
+                    group = 28,
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.6, -0.35, 0.65, 1, },
+                },
+            },
+        },
+		transportVehicle = {
+			carrier = "TRAM",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 92,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = false,
+			reversible = false,
+			groupFileName = "vehicle/tram/tm36/menu_tm36.mdl",
+		},
+	},
+	version = 1,
+}
+end
